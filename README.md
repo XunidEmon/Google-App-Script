@@ -20,7 +20,7 @@ function data() {
 
 
 
-//Send Data Actual Sheet:
+//Send Data "Actual" Sheet:
 function doGet() {
   data();
   return ContentService.createTextOutput();
@@ -37,6 +37,12 @@ function data() {
   sheet.getRange("B2").setValue("Arduino");
   sheet.getRange("C2").setValue("Raspberry Pi");
 }
+
+
+
+
+
+
 
 
 
@@ -112,6 +118,16 @@ void loop() {
   
   delay(1000); 
 }
+
+
+
+
+
+
+
+
+
+
 
 
 
