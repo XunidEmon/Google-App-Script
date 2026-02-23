@@ -5,6 +5,8 @@ function doGet() {
   return ContentService.createTextOutput();  // Empty
 }
 
+
+
 function data() {
   var sheet = SpreadsheetApp.getActiveSpreadsheet().getActiveSheet();
   sheet.getRange("A1").setValue("UAP");
