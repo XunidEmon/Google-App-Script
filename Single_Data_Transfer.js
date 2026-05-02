@@ -1,5 +1,4 @@
 // Single Message Send to Google Sheets API
-```cpp
 const url = "https://script.google.com/macros/s/XXXX/exec?message=HELLO";
 
 fetch(url)
@@ -10,11 +9,11 @@ fetch(url)
   .catch(error => {
     console.error("Error:", error);
   });
-  ```
+
 
 
 // Simple Data Send to Google Sheets API
-```cpp
+
 let data = 123;
 
 const url = `https://script.google.com/macros/s/XXXX/exec?data=${data}`;
@@ -27,4 +26,3 @@ fetch(url)
   .catch(error => {
     console.error("Error:", error);
   });
-
